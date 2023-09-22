@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&family=Press+Start+2P&family=Tiro+Devanagari+Hindi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: linear-gradient(to bottom, #060707, #747475);
+    background: linear-gradient(to bottom right, #181818, #7b7d7d);
+    background: radial-gradient(circle, #2f3234, #969798);
+    background: linear-gradient(to bottom right, #414343, #88898a);
+    background: radial-gradient(circle, #252627, #7d7d7e);
+}
+
+h2 {
+    margin-bottom: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.button-item {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    width: 700px;
+    text-align: center;
+    color: rgb(235, 232, 232);
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(243, 236, 236);
+    color: black;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+button:hover {
+    background-color: #161b1e;
+    transform: scale(1.05);
+    color: white;
+}
